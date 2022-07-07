@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=xdevice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Advanced Search</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="container">
+            <nav class="links">
+                <a href="index.html">Google Search</a>
+                <a href="image.html">Image Search</a>
+            </nav>
+        </header>
+        <section class="container">
+            <form class="fields" action="https://google.com/search">
+                <h2>Find pages with:</h2>
+                <table  class="options">
+                    <tr>
+                        <td><label for="field1">All these words:</label></td>
+                        <td><input id="field1" type="text" name="q" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="field2">This exact word or phrase:</label></td>
+                        <td><input id="field2" type="text" name="as_epq" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="field3">Any of these words:</label></td>
+                        <td><input id="field3" type="text" name="as_oq" autocomplete="off"></td>
+                    </tr>                 
+                    <tr>
+                        <td><label for="field4">None of these words:</label></td>
+                        <td><input id="field4" type="text" name="as_eq" autocomplete="off"></td>
+                    </tr>
+                </table>
+                <div class="buttons">
+                    <input id="btn" type="submit" value="Google Search">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
